@@ -1,4 +1,4 @@
-import Users from "../models/UserKaryawanModel.js";
+import Users from "../models/UserModel.js";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import { where } from "sequelize";
