@@ -30,8 +30,8 @@ const Login = () => {
                     <div className="columns is-centered">
                         <div className="column is-4-desktop">
                             <form onSubmit={Auth} className='box'>
-                                <h1 className="title has-text-centered">
-                                    Absensi Karyawan
+                                <h1 className="title is-4 has-text-centered">
+                                    Management Karyawan
                                 </h1>
                                 <div className="field mt-5">
                                     <label className='label'>Email or username</label>
@@ -47,7 +47,7 @@ const Login = () => {
                                 </div>
                                 <p className='is-danger has-text-centered mb-2'>{msg}</p>
                                 <div className="field">
-                                    <button className='button is-info is-fullwidth'>Login</button>
+                                    <button className='button is-success is-fullwidth'>Login</button>
                                 </div>
                             </form>
                         </div>
