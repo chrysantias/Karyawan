@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="container">
                 <div className="navbar-brand">
                     <a className="navbar-item" href="https://bulma.io">
-                        <img src="https://id.depositphotos.com/213992096/stock-illustration-job-search-icon-choose-people.png" width="112" height="28" alt='logo' />
+                        <img src="google.png" width="112" height="28" alt='logo' />
                     </a>
 
                     <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -32,8 +32,14 @@ const Navbar = () => {
 
                 <div id="navbarBasicExample" className="navbar-menu">
                     <div className="navbar-start">
-                        <a className="navbar-item" href='/absen'>
+                        <a className="navbar-item" href='/dashboard'>
                             Home
+                        </a>
+                        <a className="navbar-item" href='/absensi'>
+                            List Absen
+                        </a>
+                        <a className="navbar-item" href='/karyawan'>
+                            Managemen Karyawan
                         </a>
 
 
