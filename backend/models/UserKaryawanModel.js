@@ -22,6 +22,9 @@ const Users = db.define('users_karyawan', {
 });
 
 export default Users;
+(async () => {
+    await db.sync()
 
+})();
 
 
