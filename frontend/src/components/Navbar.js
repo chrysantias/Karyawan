@@ -36,7 +36,7 @@ const Navbar = () => {
                             Home
                         </a>
                         <a className="navbar-item" href='/absensi'>
-                            List Absen
+                            List Absensi Karyawan
                         </a>
                         <a className="navbar-item" href='/karyawan'>
                             Managemen Karyawan

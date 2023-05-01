@@ -3,6 +3,7 @@ import { getUsers, Register, Login, Logout } from "../controllers/UserController
 import { getKaryawanById, getKaryawans, updateKaryawan, deleteKaryawan, createKaryawan } from "../controllers/KaryawanController.js";
 import { verifyToken } from "../middleware/VerifyToken.js";
 import { refreshToken } from "../controllers/RefreshToken.js";
+import { getAbsens, getAbsenById } from "../controllers/AbsenController.js";
 
 const router = express.Router();
 
@@ -16,6 +17,8 @@ router.get('/karyawan/:id', getKaryawanById);
 router.post('/karyawan', createKaryawan);
 router.patch('/karyawan/:id', updateKaryawan);
 router.delete('/karyawan/:id', deleteKaryawan);
+router.get('/absen', getAbsens);
+router.get('/absen/:id', getAbsenById);
 
 
 export default router;
